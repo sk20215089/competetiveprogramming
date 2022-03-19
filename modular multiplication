@@ -5,3 +5,4 @@ int main(){
     printf("%lld",(a%m*b%m)%m);
     return 0;
 }
+
