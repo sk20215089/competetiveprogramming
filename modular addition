@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int a,b,m;
+    scanf("%d%d%d",&a,&b,&m);
+    printf("%d",(a%m+b%m)%m);
+    return 0;
+}
